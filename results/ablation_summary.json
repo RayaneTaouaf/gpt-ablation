@@ -1,0 +1,21 @@
+{
+  "threshold": 2.310927391052246,
+  "final_val_pre": 2.0784826278686523,
+  "final_val_post": 2.310927391052246,
+  "steps_pre": 250,
+  "steps_post": 600,
+  "speedup": 2.4,
+  "config": {
+    "max_iters": 600,
+    "batch_size": 32,
+    "block_size": 64,
+    "n_embd": 128,
+    "n_head": 4,
+    "n_layer": 4,
+    "lr": 0.0003,
+    "warmup": 100,
+    "eval_interval": 50,
+    "seed": 1337,
+    "wandb": false
+  }
+}
